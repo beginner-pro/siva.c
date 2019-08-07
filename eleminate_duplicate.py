@@ -6,8 +6,6 @@ def repeat(x):
         for j in range(k,y):
             if(x[i]==x[j] and x[i] not in repeated):
                 repeated.append(x[i])
-            else:
-                print("unique")
     return repeated
 list=[1,2,3,2,3,4,3]
 print(repeat(list))
